@@ -2,7 +2,9 @@
 % Sudoku Main Script
 
 % clear workspace
-ccc
+close all
+clear
+clc
 
 % read and solve puzzle
 %filename = input('Enter the name of the input file in single quotes: ');
