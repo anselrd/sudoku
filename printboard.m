@@ -15,7 +15,7 @@ board = board'; % flip so indexing goes through original rows
 while numprinted < 81
     toprint = board(numprinted+1); % next entry
     if toprint == 0
-        toprint = ' '; % don't print zeros
+        toprint = '-'; % don't print zeros
     else
         toprint = num2str(toprint);
     end
